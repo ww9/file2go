@@ -10,6 +10,18 @@ Useful for embedding static files inside self-contained go programs.
 
 ### Usage
 
+Generate for a single file:
+
+`file2go file.css`
+
+Outputs:
+
+```
+style.css => style.css.go
+```
+
+Generte for all files in directory and subdirectories:
+
 `file2go assets`
 
 Outputs:
