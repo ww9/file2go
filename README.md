@@ -20,7 +20,7 @@ Outputs:
 style.css => style.css.go
 ```
 
-Generte for all files in directory and subdirectories:
+Generate for all files in directory and subdirectories:
 
 `file2go assets`
 
