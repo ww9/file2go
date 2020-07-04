@@ -27,8 +27,8 @@ Optional -prefix argument to insert a string at the top of every generated go fi
 ```
 package assets
 
-var Bstyle_css = []byte("\xff\xd8\xff\xe0\x00\x10JFIF\x00\x01\x01\x00\x00\x01\x00\x01\x00\x00\xff\xdb\x00C\x00\b\x06\x06\a\x06\x05")
-`
+var Bstyle_css = []byte("\xff\xd8\xff\xe0\x00\x10JFIF\x00\x01\x01")
+```
 
 You can then import these packages in your main.go and use these generated variables. When you compile the program, it will contain all embedded files.
 
