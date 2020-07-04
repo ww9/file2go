@@ -46,7 +46,7 @@ You can then import these packages in your `main.go` and use the byte slice vari
 
 ### Credits
 
-* https://github.com/hajimehoshi/file2byteslice for idea.
+https://github.com/hajimehoshi/file2byteslice for idea.
 
 ### License
 
