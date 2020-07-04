@@ -14,7 +14,8 @@ Useful for embedding static files inside self-contained go programs.
 
 Outputs:
 
-```assets/style.css => assets/style.css.go
+```
+assets/style.css => assets/style.css.go
 assets/music.mp3 => assets/music.mp3.go
 ```
 
