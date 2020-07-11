@@ -47,7 +47,9 @@ func file2Go(file string) {
 		return
 	}
 	outFile := file + ".go"
-	varName := "B" + strings.Replace(strings.Replace(filepath.Base(file), ".", "_", -1), " ", "_", -1)
+	varName := "B" + strings.Replace(filepath.Base(file), ".", "_", -1)
+	varName = strings.Replace(varName, " ", "_", -1)
+	varName = strings.Replace(varName, "-", "_", -1)
 	packageName := filepath.Base(filepath.Dir(file))
 	if packageName == "." {
 		packageName, _ = os.Getwd()
